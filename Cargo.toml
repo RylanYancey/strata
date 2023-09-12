@@ -1,0 +1,9 @@
+[package]
+name = "strata"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+indexmap = "2.0.0"
+rayon = "1.7.0"
+strata-traits = { path = "../strata-traits" }
